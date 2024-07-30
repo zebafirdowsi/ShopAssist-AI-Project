@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>
+            ShopAssist
+        </title>
+       <link rel="stylesheet" href="static\css\style.css">
+    </head>
+    <body>
+        <div class="outercontainer">
+            <div>
+                <h1 id="titlestyle">ShopAssist App</h1>
+            </div>
+            <div class="conversationalcontainer" id="chatcontainer">
+                {% for entry in name_xyz %}
+                    <div class="{% if entry.bot %}bot{% else %}user{% endif %}">
+                       {% if entry.bot %}
+                        {{entry.bot}}
+                        {% else %}
+                        {{entry.user}}
+                        {% endif %}
+                    </div>
+                {% endfor %}
+            </div>
+            <form  action="/invite", method="POST" class="center">
+              <input type="text" name="user_input_message" id="inputtextbutton">
+              <input type="submit" value=" " id="submitbutton">
+    
+            </form>
+            <form  action="/end_conv", method="POST" class="center">
+            <button type="submit">End conversation</button>
+            </form></body>
+        </div>
+    <script>
+        function scrollToBottom(){
+        var chatContainer=document.getElementById('chatcontainer');
+        chatContainer.scrollTop=chatContainer.scrollHeight;
+        }
+        window.onload=scrollToBottom;
+    </script>
+    </body>
+</html>

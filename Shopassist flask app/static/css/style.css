@@ -1,0 +1,94 @@
+button{
+    color: white;
+    background-color: rgb(74, 95, 0);
+    width: 200px;
+    padding: 10px;
+    font-size: medium;
+    height: 50px;
+    border: 2px solid black;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+
+        }
+    .outercontainer{
+        max-width: 800px;
+        padding: 20px;
+        border-radius: 50px;
+        margin: auto;
+        border: 5px solid #ccc;
+        
+
+    }
+   .conversationalcontainer{
+    padding: 10px;
+    border-radius: 50px;
+    border: 5px solid #ccc;
+    height: 500px;
+    overflow-y: scroll;
+    background-color: #f3f3f3;
+   
+   } 
+   #titlestyle{
+    padding: 10px;
+    border: 5px solid black;
+    color: black;
+    background-color: rgb(238, 207, 157);
+    border-radius: 10px;
+    width: fit-content;
+    margin-top: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+    
+   }
+  #inputtextbutton{
+    width: 85%;
+    background-color: #f3f3f3;
+    padding: 10px;
+    border-radius: 10px;
+    border: 5px solid #ccc;
+    
+    
+  }
+  #submitbutton{
+    background: url(/static/send\ icon.png);
+    background-size:cover;
+    width: 60px;
+    height: 60px;
+    border:none;
+    cursor: pointer;
+  }
+.bot{
+    color: white;
+    background-color: rgb(51, 130, 67);
+    float: left;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    clear: both;
+    max-width: 80%;
+    margin: 5px;
+}
+.user{
+    color: white;
+    background-color: rgb(85, 177, 187);
+    float: right;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    clear: both;
+    max-width: 80%;
+}
+.center{
+    display: flex;
+    justify-content: center;
+
+}
+form{
+    margin: 10px;
+}
+body{
+margin: 50px;
+font-family: 'Courier New', Courier, monospace;
+}
