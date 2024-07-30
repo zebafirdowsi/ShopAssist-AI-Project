@@ -39,4 +39,4 @@ We have a dataset `laptop_data.csv` where each row describes the features of a s
 
 ### Prerequisites
 - Python 3.7+
-- OpenAI API Key (you have to add openai key in the given empty openai text file)
+- OpenAI API Key (you have to add openai api key in the empty txt file (OpenAI_API_Key))
