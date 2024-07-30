@@ -41,3 +41,22 @@ We have a dataset `laptop_data.csv` where each row describes the features of a s
 - Python 3.7+
 - OpenAI API Key(you have to add openai api key in the empty txt file (OpenAI_API_Key))
 
+## Running the Application
+
+### Open the folder in VS Code:
+
+1. Open VS Code.
+2. Go to `File` > `Open Folder...` and select the `Shopassist flask app` folder.
+
+### Run the app.py file:
+
+1. Open the `app.py` file in VS Code.
+2. Open a terminal in VS Code (``Ctrl+` `` or go to `Terminal` > `New Terminal`).
+3. Run the following command:
+   ```bash
+   python app.py
+
+### Access the Chatbot:
+
+1. Once the server is running, you will see a link in the terminal, typically something like `http://127.0.0.1:5000/`.
+2. Open this link in your web browser to access the ShopAssist AI chatbot.
