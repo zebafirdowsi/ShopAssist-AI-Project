@@ -55,6 +55,7 @@ We have a dataset `laptop_data.csv` where each row describes the features of a s
 3. Run the following command:
    ```bash
    python app.py
+#### Note:This version includes steps to create and activate the Conda environment with Python 3.11.7, ensuring users set up their environment correctly before installing dependencies and running the application.
 
 ### Access the Chatbot:
 
